@@ -48,7 +48,7 @@ public class Etudiant {
         this.prenom = prenom;
     }
 
-    @XmlTransient
+    //@XmlTransient
     public Option getOption() {
         return option;
     }
